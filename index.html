@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Portfolio Website</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/39d0636f4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    <div class="header-text">
+    <p>Front End Web Developer & UI/UX Designer</p>
+    <h1>Hi, I'm <span>William</span><br>from Ca</h1>
+    </div>
+    </div>
+</div><!-------about-->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/user.png"> 
+        </div>
+            <div class="about-col-2">
+                 <h1 class="sub-title">About me</h1>
+                 <p>Skilled in Web Developer and UI/UX Designer with a strong eye for detail and deep love for creating clean
+                    , functional,and user-friendly digital experiences. I bridge the gap between design and development by
+                    crafting responsive websites and intuitive interfaces that don't just look-they perform smoothly across devices.
+                    My journey combines the technical side of coding with the creative aspects of design, allowing me to bring ideas
+                    to life from concept to deployment.
+                 </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                    <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025-current</span><br>Freelance Designing web/App interfaces at Upwork</li>
+                        <li><span>2024</span><br>Business Analyst & Product Owner at Mobility cloud</li>
+                        <li><span>2023-2024</span><br>Creation of web pages(Doc's shop, real estate & larifoods) & blog&flyers(Dj veggies)</li>
+                        <li><span>2023</span><br>Aws experience(Job roles,billing &cost management & well-architected)</li>
+                        <li><span>2021-2022</span><br>Internship at Next Gen Tech</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2022</span><br>Bachelor's degree in Software Engineering</li>
+                        <li><span>2019-2021</span><br>Hnd in Software Engineering</li>
+                        <li><span>2019</span><br>Gce Advanced Level at Green Hills Academy</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Create modern, visually appealing,and fully responsive websites to your brand identity.
+            Every design is made from scratch to fit your business goals and engage your target audience.
+            </p>
+            <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Focus on creating user experiences that are both beautiful and easy to use. From wireframes
+            to final prototypes, Ensure your product is user-centered and conversion-driven.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>Modern,intuitive and visually appealing design for ios and android that would focus on usability,
+                accessibility and smooth user flow. 
+            </p>
+            <a href="#">Learn more</a>
+
+        </div>
+
+        </div>
+    </div>
+</div>
+<!-- -------portfoloi-------- -->
+ <div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Work-1.png">
+                <div class="layer">
+                    <h3>Vacation Camp Web App</h3>
+                    <p>The app let you record children under 12 years who will be entitled
+                        to holidays activities and others.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work-2.png"> 
+                <div class="layer">
+                    <h3>Museum Web app</h3>
+                    <p>The app allows users to explore and interact with art's collections,exhibitions
+                        and content online.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/Work-3.png">
+                <div class="layer">
+                    <h3>ERP Mobile App</h3>
+                    <p>The mobile app is designed to provide on-the-go access to business management systems.
+                        They can help user with tasks like order tracking,inventory,financial,employee and supply chain management.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- --------- contact---------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i> williamfranck237@gmail.com</p>
+               <p><i class="fa-solid fa-square-phone"></i> +237655035606</p>
+               <div class="social-icons">
+                <a href="https://www.instagram.com/williamlefree?igsh=MTBxNTg1cnlhZDU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/WLefree237?t=XZNGHD6QDGgNNTVzKlxN3A&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="www.linkedin.com/in/franck-m-biandoun-18340327b"><i class="fa-brands fa-linkedin"></i></a>
+               </div> 
+               <a href="images/My-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © William. Made with <i class="fa-solid fa-heart"></i> by Easy tutorials  </p>
+    </div>
+  </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+         
+         
+    }  
+
+</script>
+
+ </body>
+</html>
